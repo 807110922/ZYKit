@@ -1,37 +1,48 @@
 PODS:
-  - Masonry (1.0.2)
+  - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
-  - MJExtension (3.0.13)
-  - MJRefresh (3.1.12)
-  - SDWebImage (3.8.2):
-    - SDWebImage/Core (= 3.8.2)
-  - SDWebImage/Core (3.8.2)
-  - SensorsAnalyticsSDK (1.6.31):
-    - SensorsAnalyticsSDK/core (= 1.6.31)
-  - SensorsAnalyticsSDK/core (1.6.31)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SensorsAnalyticsSDK/core (1.10.6)
+  - SensorsAnalyticsSDK/IDFA (1.10.6):
+    - SensorsAnalyticsSDK/core
   - SimulateIDFA (0.0.1)
-  - WDKit (1.0.4.3)
+  - WDKit (1.0.8)
 
 DEPENDENCIES:
-  - Masonry (~> 1.0.2)
-  - MBProgressHUD (~> 1.0.0)
-  - MJExtension (~> 3.0.13)
-  - MJRefresh (~> 3.1.12)
-  - SDWebImage (~> 3.8.2)
-  - SensorsAnalyticsSDK (~> 1.6.29)
-  - SimulateIDFA (~> 0.0.1)
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - SDWebImage
+  - SensorsAnalyticsSDK/IDFA
+  - SimulateIDFA
   - WDKit
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SimulateIDFA
+    - WDKit
+
 SPEC CHECKSUMS:
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  SensorsAnalyticsSDK: 029c4bbf7df399d2be079194a59f754aa2378cde
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SensorsAnalyticsSDK: 3998c7876e200c15a7ff14eccc1dc5463a4f763b
   SimulateIDFA: 3b7dc99085eaf79deacb27a0bdc34277ee89075f
-  WDKit: 8448f10f7b50038243a425884f8bce39587809d7
+  WDKit: 467223283cb11cca86897279e2ed788e94ba64ed
 
-PODFILE CHECKSUM: fd66a05342e630456425b4d5cb1a1054e50e2ff7
+PODFILE CHECKSUM: 6537b30c0654cf8916deaed4a516348c18e5e340
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.3

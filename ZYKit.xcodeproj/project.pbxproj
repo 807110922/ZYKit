@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3BF5EEF41E8B683C003E8E75 /* ZYAlertHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5EEF31E8B683C003E8E75 /* ZYAlertHub.m */; };
 		3BF5EEF71E8B6955003E8E75 /* ZYAlertMessageDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5EEF61E8B6955003E8E75 /* ZYAlertMessageDataModel.m */; };
+		75769C8022A4C03100A98A86 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75769C7F22A4C03100A98A86 /* TestView.m */; };
 		B62781711DD9C13300B3F901 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62781701DD9C13300B3F901 /* main.m */; };
 		B62781741DD9C13300B3F901 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62781731DD9C13300B3F901 /* AppDelegate.m */; };
 		B62781771DD9C13300B3F901 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62781761DD9C13300B3F901 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 		B6B86EFE1DDD944B003D8C3C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B86EFD1DDD944B003D8C3C /* AdSupport.framework */; };
 		B6BE09FC1DE415D40046DE6B /* UIViewController+ZYLotter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE09FB1DE415D40046DE6B /* UIViewController+ZYLotter.m */; };
 		B6BE09FF1DE4167C0046DE6B /* UIView+ZYLotter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE09FE1DE4167C0046DE6B /* UIView+ZYLotter.m */; };
+		B6E5F3861EB9740F005DECD5 /* ZYAnalyticsClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E5F3851EB9740F005DECD5 /* ZYAnalyticsClientInfo.m */; };
 		B6EEDE5A1DE57D2200CB5FA0 /* UINavigationBar+ZYLotter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EEDE591DE57D2200CB5FA0 /* UINavigationBar+ZYLotter.m */; };
 		E27D929D4E48FB022B63E49B /* libPods-ZYKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CE72A37998AAC9E9EA6FF5 /* libPods-ZYKit.a */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		3BF5EEF31E8B683C003E8E75 /* ZYAlertHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAlertHub.m; sourceTree = "<group>"; };
 		3BF5EEF51E8B6955003E8E75 /* ZYAlertMessageDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAlertMessageDataModel.h; sourceTree = "<group>"; };
 		3BF5EEF61E8B6955003E8E75 /* ZYAlertMessageDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAlertMessageDataModel.m; sourceTree = "<group>"; };
+		75769C7E22A4C03100A98A86 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		75769C7F22A4C03100A98A86 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		A13A36B8F49B0719C0B74A30 /* Pods-ZYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYKit/Pods-ZYKit.release.xcconfig"; sourceTree = "<group>"; };
 		A9CE72A37998AAC9E9EA6FF5 /* libPods-ZYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B627816C1DD9C13300B3F901 /* ZYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +100,8 @@
 		B6BE09FB1DE415D40046DE6B /* UIViewController+ZYLotter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZYLotter.m"; sourceTree = "<group>"; };
 		B6BE09FD1DE4167C0046DE6B /* UIView+ZYLotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYLotter.h"; sourceTree = "<group>"; };
 		B6BE09FE1DE4167C0046DE6B /* UIView+ZYLotter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYLotter.m"; sourceTree = "<group>"; };
+		B6E5F3841EB9740F005DECD5 /* ZYAnalyticsClientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnalyticsClientInfo.h; sourceTree = "<group>"; };
+		B6E5F3851EB9740F005DECD5 /* ZYAnalyticsClientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnalyticsClientInfo.m; sourceTree = "<group>"; };
 		B6EEDE581DE57D2200CB5FA0 /* UINavigationBar+ZYLotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ZYLotter.h"; sourceTree = "<group>"; };
 		B6EEDE591DE57D2200CB5FA0 /* UINavigationBar+ZYLotter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ZYLotter.m"; sourceTree = "<group>"; };
 		FB8189AF25B39F7E187527BF /* Pods-ZYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYKit/Pods-ZYKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +175,8 @@
 				B62781731DD9C13300B3F901 /* AppDelegate.m */,
 				B62781751DD9C13300B3F901 /* ViewController.h */,
 				B62781761DD9C13300B3F901 /* ViewController.m */,
+				75769C7E22A4C03100A98A86 /* TestView.h */,
+				75769C7F22A4C03100A98A86 /* TestView.m */,
 				B62781781DD9C13300B3F901 /* Main.storyboard */,
 				B627817B1DD9C13300B3F901 /* Assets.xcassets */,
 				B627817D1DD9C13300B3F901 /* LaunchScreen.storyboard */,
@@ -292,6 +300,8 @@
 			children = (
 				B6B86EEE1DDD5A60003D8C3C /* ZYAnalytics.h */,
 				B6B86EEF1DDD5A60003D8C3C /* ZYAnalytics.m */,
+				B6E5F3841EB9740F005DECD5 /* ZYAnalyticsClientInfo.h */,
+				B6E5F3851EB9740F005DECD5 /* ZYAnalyticsClientInfo.m */,
 			);
 			name = Analytics;
 			sourceTree = "<group>";
@@ -318,7 +328,6 @@
 				B62781681DD9C13300B3F901 /* Sources */,
 				B62781691DD9C13300B3F901 /* Frameworks */,
 				B627816A1DD9C13300B3F901 /* Resources */,
-				DFB422558D31862CC9A52A4B /* [CP] Embed Pods Frameworks */,
 				ABB28A8630294C0329845136 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -351,6 +360,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -384,9 +394,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZYKit/Pods-ZYKit-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,28 +412,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DFB422558D31862CC9A52A4B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYKit/Pods-ZYKit-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -436,6 +437,7 @@
 				B6B5E5BC1DE449DC00523889 /* ZYCircularProgressView.m in Sources */,
 				B66F22C41DDB193B00021305 /* UILabel+ZYLotter.m in Sources */,
 				B66F22C11DDB193B00021305 /* UIButton+ZYLotter.m in Sources */,
+				B6E5F3861EB9740F005DECD5 /* ZYAnalyticsClientInfo.m in Sources */,
 				B66F22CA1DDB193B00021305 /* ZYNoticeAlertView.m in Sources */,
 				B6BE09FF1DE4167C0046DE6B /* UIView+ZYLotter.m in Sources */,
 				B66F22C51DDB193B00021305 /* UIScrollView+ZYLotter.m in Sources */,
@@ -445,6 +447,7 @@
 				B62781771DD9C13300B3F901 /* ViewController.m in Sources */,
 				B66F22C21DDB193B00021305 /* UIImage+ZYLotter.m in Sources */,
 				B6B86EFC1DDD936A003D8C3C /* ZYClientInfo.m in Sources */,
+				75769C8022A4C03100A98A86 /* TestView.m in Sources */,
 				B66F22C31DDB193B00021305 /* UIImageView+ZYLotter.m in Sources */,
 				B6EEDE5A1DE57D2200CB5FA0 /* UINavigationBar+ZYLotter.m in Sources */,
 				B6BE09FC1DE415D40046DE6B /* UIViewController+ZYLotter.m in Sources */,

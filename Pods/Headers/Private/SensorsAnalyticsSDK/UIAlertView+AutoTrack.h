@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/UIAlertView+AutoTrack.h
